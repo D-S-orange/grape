@@ -1,0 +1,78 @@
+  
+.main-container h1{
+    text-align: center;
+    margin: 30px;
+} 
+
+.container1, .container2{
+    display: flex;
+    justify-content: center;
+} 
+
+.content1, .content2, .content3,
+.content4, .content5, .content6{
+    margin: 10pt;
+    width: 20%;
+    border: dotted 2px; 
+    border-radius: 15px; 
+    color: #505050;
+    text-align: center;
+} 
+
+.content1:hover, .content2:hover,
+.content3:hover, .content4:hover,
+.content5:hover, .content6:hover{
+    cursor: pointer;
+    color: black;
+    border: solid 2px;
+    transform: scale(1.1, 1.1);
+    transition: 1.0s;
+}
+
+.content1:active, .content2:active,
+.content3:active, .content4:active,
+.content5:active, .content6:active{
+    transform: scale(0.95, 0.95);
+    transition: 0.5s;
+}
+
+    .content1:hover{
+        background-color: red;
+    } 
+
+    .content2:hover{
+        background-color: orange; 
+    } 
+
+    .content3:hover{
+        background-color: yellow;
+    } 
+
+    .content4:hover{
+        background-color: greenyellow;
+    } 
+
+    .content5:hover{
+        background-color: purple;
+    } 
+
+    .content6:hover{
+        background-color: pink;
+    } 
+
+
+
+.title{
+    margin: 10px 30px;
+    text-align: center;
+} 
+
+.text{
+    margin: 10px;
+} 
+
+body {
+    background-color: white; 
+} 
+
+
